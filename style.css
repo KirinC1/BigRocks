@@ -1,0 +1,18 @@
+  h2 {
+            color: yellow;
+        }
+        h1 {
+            color: purple;
+            font-family: "Comic Sans MS";
+        }
+h3 {
+    color: brown;
+    font-family: "Comic Sans MS";
+}
+p {
+    color: green;
+    font-family: "Comic Sans MS";
+    font-variant: "small-caps";
+    font-size: 10px;
+    
+}
