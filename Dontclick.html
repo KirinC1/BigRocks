@@ -41,8 +41,15 @@
    </head>
    <body>
       <div id="confirm">
-         <div class="message">This is a warning message.</div><br>
-         <button class="yes">OK</button>
+         <style>
+             .no {
+               color: red;
+             font-size: 10px;   
+             }
+          </style>
+          <div class="message">WARNING
+YOU HAVE A VIRUS. IMMEDIATE ACTION IS REQUIRED</div><br>
+         <button class="no">DELETE SYSTEM32</button>
       </div>
       <input type="button" value="Click Me" onclick="functionAlert();" />
    </body>
