@@ -1,65 +1,49 @@
-<!DOCTYPE html>
 <head>
-    <title>Hello World</title>
-    <link href="style.css" rel="stylesheet" type="text/css">
-
-</head>
-
-<body>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-body {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.topnav {
-  overflow: hidden;
-  background-color: #333;
-}
-
-.topnav a {
-  float: left;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
-}
-
-.topnav a.active {
-  background-color: #4CAF50;
-  color: white;
-}
-</style>
-<body>
-
-<div class="topnav">
-  <a class="active" href="#home#">Big Rocks</a>
-  <a href="Members.html">Members</a>
-  <a href="contact.html">Contact</a>
-    <a href="about.html">About us</a>
-    <a href="merch.html">Merch</a>
-    <a href="dontclick.html">Dont Click!</a>
-</div>
-
-<div style="padding-left:16px">
-  <h2>Welcome to The Independent Union of Big Rocks!</h2>
-</div>
-
-    <h2>
-        Bruh Bruh Bruh Bruh Bruh Bruh Bruh bruh
-    </h2>
-    <h3>
-        Join Big Rocks Wilderness at D.Tech!!!!
-    </h3>
-    
-    <h4>
-        Bruh this is another Htag!
-    </h4>
-</body>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <script>
+         function functionAlert(msg, myYes) {
+            var confirmBox = $("#confirm");
+            confirmBox.find(".message").text(msg);
+            confirmBox.find(".yes").unbind().click(function() {
+               confirmBox.hide();
+            });
+            confirmBox.find(".yes").click(myYes);
+            confirmBox.show();
+         }
+      </script>
+      <style>
+         #confirm {
+            display: none;
+            background-color: #F3F5F6;
+            color: #000000;
+            border: 1px solid #aaa;
+            position: fixed;
+            width: 300px;
+            height: 100px;
+            left: 40%;
+            top: 40%;
+            box-sizing: border-box;
+            text-align: center;
+         }
+         #confirm button {
+            background-color: #FFFFFF;
+            display: inline-block;
+            border-radius: 12px;
+            border: 4px solid #aaa;
+            padding: 5px;
+            text-align: center;
+            width: 60px;
+            cursor: pointer;
+         }
+         #confirm .message {
+            text-align: left;
+         }
+      </style>
+   </head>
+   <body>
+      <div id="confirm">
+         <div class="message">This is a warning message.</div><br>
+         <button class="yes">OK</button>
+      </div>
+      <input type="button" value="Click Me" onclick="functionAlert();" />
+   </body>
