@@ -3,16 +3,11 @@ h2 {
             color: red;
     font-family: "Titan One";
         }
-        h1 {
-            color: purple;
-        }
 h2{
     font-size: 50px;
     font-weight: lighter;
 }
-h3 {
-    color: brown;
-}
+
 p {
     color: black;
     border: 5px solid black;
@@ -45,9 +40,16 @@ body {
   color: black;
 }
 .topnav a.active {
-  background-color: #4CAF50;
+  background-color: #4169E1;
   color: white;
 }
+.topnav 
 </style>
+}
+.contactuslol p{
+     text-align: center;
+    }
+}
+
 
 
