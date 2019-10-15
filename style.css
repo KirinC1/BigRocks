@@ -42,23 +42,25 @@ body {
 .topnav {
 
 }
+.welcome {
+    font-weight: 100px
+}
 .contactuslol p{
      text-align: center;
     }
 
 .list{
-   
     font-family: "courier new";
     color: black;
     font-weight: bold;
-    border: 5px solid black;
+    border: 4px solid black;
+    width: 500;
+    background-color: gray;
+    margin: auto;
     text-align: center;
-    width: 1000;
-    background-color: brown;
-
 }
 .mspeech{
-    color: darkgray;
+    color: black;
         font-weight: lighter;
     font-family: "courier new";
 }

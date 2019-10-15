@@ -1,0 +1,12 @@
+.gameselection {
+    font-weight: bold;
+    border: 5px solid black;
+    text-align: center;
+    margin: auto;
+    width: 500;
+}
+.gametext {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
