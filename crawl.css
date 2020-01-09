@@ -196,7 +196,7 @@ top: 0;
 
 #content {
 
-animation: scroll 100s linear 16s;
+animation: scroll 200s linear 16s;
 
 position: absolute;
 
@@ -225,5 +225,11 @@ top: 100%;
 top: -170%;
 
 }
+
+}
+
+#crawltext {
+    
+    text-align: center;
 
 }
